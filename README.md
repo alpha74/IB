@@ -1,2 +1,2 @@
-# InterviewBit_Questions
+# InterviewBit Questions
 Questions solved on InterviewBit.
