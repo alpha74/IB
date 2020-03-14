@@ -1,4 +1,4 @@
-// Brute Force solution
+// Brute Force solution : O(n^2)
 // Start from each gas station, and check if same gas station can be reached.
 
 int Solution::canCompleteCircuit(const vector<int> &A, const vector<int> &B)
