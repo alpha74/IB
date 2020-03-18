@@ -1,6 +1,15 @@
 // Leave half nodes and point to next node.
 // Store half nodes in stack, and start comparing from first element.
 
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
+ */
+
 int Solution::lPalin(ListNode* A) 
 {
     int size = 0, ret = 1 ;
