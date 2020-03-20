@@ -1,4 +1,4 @@
-// Iterate till (size-B) rotations and connect apprpriate node.
+// Iterate till (size-B) and keep reversing; and connect apprpriate node.
 
 /**
  * Definition for singly-linked list.
@@ -37,15 +37,15 @@ ListNode* Solution::rotateRight(ListNode* A, int B)
     		rot-- ;
     		last -> next = A ;
 			
-			temp = A ;
-			
-			while( rot-- )
-			{
-				temp = temp -> next ;
-			}
-			
-			first = temp -> next ;
-			temp -> next = NULL ;
+		temp = A ;
+
+		while( rot-- )
+		{
+			temp = temp -> next ;
+		}
+
+		first = temp -> next ;
+		temp -> next = NULL ;
 		}
 		else
 			first = A ;     	
