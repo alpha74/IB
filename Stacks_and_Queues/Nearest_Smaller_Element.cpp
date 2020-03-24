@@ -1,11 +1,15 @@
+// Use stack to store current element. Pop till curr element is smaller than top.
+// Update stack.
+
 vector<int> Solution::prevSmaller(vector<int> &A) 
 {
-    stack<int> stk ;
-    vector<int> ret ;
+    stack<int> stk ;        
+    vector<int> ret ;       // Return answer array
     int size = A.size() ;
     
-    // Smallest is alway -1.
+    // Smallest is always -1.
     stk.push( -1 ) ;
+    
     // For first element: always -1.
     ret.push_back( -1 ) ;
     stk.push( A[0] ) ;
@@ -19,12 +23,15 @@ vector<int> Solution::prevSmaller(vector<int> &A)
         }
         else
         {
+            // Pop till top element is >= curr element
             while( stk.top() >= A[i] )
             {
                 stk.pop() ;
             }
             
+            // Set the smallest value from stack
             ret.push_back( stk.top() ) ;
+            // Push curr element in stack
             stk.push( A[i] ) ;
         }
     }
