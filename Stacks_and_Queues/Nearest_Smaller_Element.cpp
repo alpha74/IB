@@ -1,12 +1,12 @@
-// Use stack to store current element. Pop till curr element is smaller than top.
-
 vector<int> Solution::prevSmaller(vector<int> &A) 
 {
     stack<int> stk ;
     vector<int> ret ;
     int size = A.size() ;
     
+    // Smallest is alway -1.
     stk.push( -1 ) ;
+    // For first element: always -1.
     ret.push_back( -1 ) ;
     stk.push( A[0] ) ;
     
