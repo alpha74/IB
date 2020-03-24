@@ -56,3 +56,11 @@ Ans: 14
     | adhikranjan |   6500 |
     +-------------+--------+
   
+
+- Creating table:
+    -> create table records
+    -> (
+    -> borrower varchar(25),
+    -> manager varchar(25),
+    -> amount int
+    -> ) ;
