@@ -1,3 +1,6 @@
+// Check for curr and next element val. Iterate to next only when next is not equal to curr.
+// Take care when node is NULL.
+
 /**
  * Definition for singly-linked list.
  * struct ListNode {
