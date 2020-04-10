@@ -1,4 +1,4 @@
-// Backtracking trick.
+// Backtracking recursion trick. See backtrack()
 
 void backtrack(vector<int> &A, int i, vector<vector<int> > &all , vector<int> &subset )
 {
