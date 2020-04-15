@@ -1,4 +1,4 @@
-// Uses Inorder traversal
+// Uses Inorder traversal. O(n) extra space.
 // Store inorder traversal of TreeNodes in an array. Return Node having val > B .
 
 
