@@ -1,5 +1,6 @@
-// Use priority queue and get top element each time.
+// Use <priority_queue> and get top element each time.
 // Remove it and push its half.
+// Using <set> will not work due to presence of duplicates.
 
 #define MOD 1000000007
    
