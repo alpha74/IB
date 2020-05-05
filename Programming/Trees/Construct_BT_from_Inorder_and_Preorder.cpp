@@ -44,15 +44,15 @@ TreeNode *consT( vector<int> &pre, map<int,int> &index, int start, int end, int 
  
 TreeNode* Solution::buildTree(vector<int> &A, vector<int> &B) 
 {
-    map<int,int> index ;
+    	map<int,int> index ;
     
-    for( int i = 0 ; i < B.size() ; i++ )
+   	for( int i = 0 ; i < B.size() ; i++ )
 	{
 		index.insert( pair<int,int>( B[i],i ) ) ;
 	}
 	
 	int curr = 0 ;
 	TreeNode * root = consT( A, index, 0, B.size() -1, curr ) ;
-	
+
 	return root ;
 }
