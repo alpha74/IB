@@ -1,5 +1,5 @@
 // Do postorder traversal.
-// On coming back, swap the left and right subtrees.
+// On coming back, swap the left and right subtrees on each node.
 
 /**
  * Definition for binary tree
