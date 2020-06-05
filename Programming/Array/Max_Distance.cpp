@@ -1,3 +1,5 @@
+// https://www.interviewbit.com/problems/max-distance/
+
 // Store array element and its index as a pair in array.
 // Sort it
 // Traverse it from last. Update max distance and maxj
