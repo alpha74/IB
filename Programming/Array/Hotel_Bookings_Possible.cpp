@@ -1,3 +1,4 @@
+// https://www.interviewbit.com/problems/hotel-bookings-possible/
 // Use two pointers in each array, after sorting, and manipulate K.
 // Check when K becomes 0.
 
