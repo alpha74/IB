@@ -1,3 +1,5 @@
+// https://www.interviewbit.com/problems/kth-row-of-pascals-triangle/
+
 // Matrix approach. Return required row.
 
 vector<int> Solution::getRow(int A) 
