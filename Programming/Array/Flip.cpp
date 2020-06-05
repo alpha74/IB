@@ -1,3 +1,4 @@
+// https://www.interviewbit.com/problems/flip/
 // Use two pointer approach. Check for difference between num of 1s and 0s, and move pointers.
 // Check condition for discarding whole subarray.
 
