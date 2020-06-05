@@ -1,4 +1,5 @@
 // https://www.interviewbit.com/problems/find-duplicate-in-array/
+
 // Using Floyd's slow and fast pointers.
 
 int Solution::repeatedNumber(const vector<int> &A) 
