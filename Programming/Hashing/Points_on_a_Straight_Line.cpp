@@ -1,5 +1,6 @@
 // Trick is to use slope not as a double type but a pair<int,int>
 // Calculate slope between two points, and match with remaining points.
+// Use var 'same' for: According to ques, for input points [(1,1),(1,1),(1,1)], answer will be 3.
 
 int Solution::maxPoints(vector<int> &A, vector<int> &B)
 {
